@@ -57,6 +57,7 @@
 
         <v-row justify="center">
           <v-col cols="12">
+            <TablaConDatos />
              </v-col>
         </v-row>
 
@@ -72,6 +73,7 @@ import { ref, onMounted } from 'vue'
 import AppHeader from './components/AppHeader.vue'
 import AppFooter from './components/AppFooter.vue'
 import TarjetaConImagen from './components/TarjetaConImagen.vue'
+import TablaConDatos from './components/TablaConDatos.vue'
 
 // Estado reactivo
 const imagenes = ref([
