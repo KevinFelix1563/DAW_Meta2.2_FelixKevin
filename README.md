@@ -42,7 +42,7 @@ La aplicación utiliza la función `fetch` nativa de JavaScript junto con `async
 1. Clonar el repositorio:
    `git clone https://github.com/KevinFelix1563/DAW_Meta2.2_FelixKevin`
 2. Navegar al directorio del proyecto:
-   `cd proyecto-vue-vuetify`
+   `cd DAW_Meta2.2_FelixKevin`
 3. Instalar las dependencias:
    `npm install`
 4. Ejecutar el servidor de desarrollo:
