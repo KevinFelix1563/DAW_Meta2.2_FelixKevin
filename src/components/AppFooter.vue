@@ -1,7 +1,7 @@
 <template>
   <v-footer color="grey-darken-4" class="text-white py-2" app>
     <v-container>
-      <v-row justify="space-between" align="center" no-gutters>
+      <v-row justify="space-between" align="center">
         
         <v-col cols="12" md="4" class="text-center text-md-left mb-1 mb-md-0 text-body-2">
           <strong>Kevin Yassir Felix Sanchez</strong> • 1196791
@@ -23,6 +23,8 @@
 <script setup>
 import { ref, computed } from 'vue';
 
+// Se obtiene la fecha actual usando el objeto Date() de JS y la propiedad computed
+// de Vue para indicar que se debe actualizar
 const date = new Date();
 const currentDate = ref(date.toLocaleDateString('es-MX'));
 const currentYear = computed(() => date.getFullYear());
