@@ -1,18 +1,29 @@
 <template>
   <v-app>
-    <v-main>
-      <HelloWorld />
+    <AppHeader />
+    
+    <v-main class="bg-grey-lighten-4">
+      <v-container class="fill-height">
+        <v-row justify="center" align="center">
+          <v-col class="text-center">
+            <h1 class="text-h4 text-grey-darken-1">
+              Faltan tarjetas y tablas.
+            </h1>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-main>
-    <v-btn
-      class="ma-2"
-      icon="mdi-theme-light-dark"
-      location="top right"
-      position="absolute"
-      @click="$vuetify.theme.cycle()"
-    />
+
+    <AppFooter />
   </v-app>
 </template>
 
-<script lang="ts" setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+<script setup>
+// Se importan los componentes
+import AppHeader from './components/AppHeader.vue'
+import AppFooter from './components/AppFooter.vue'
 </script>
+
+<style scoped>
+
+</style>
