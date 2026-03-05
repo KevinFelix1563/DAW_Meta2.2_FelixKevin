@@ -4,7 +4,7 @@
 **Programa:** Ingeniero en Computación
 **Asignatura:** Desarrollo de Aplicaciones Web
 
-##Captura del proyecto funcionando
+## Captura del proyecto funcionando
 ![Captura de la aplicación funcionando](./imgs/captura1.png)
 
 ## Descripción del Proyecto
@@ -40,7 +40,7 @@ La aplicación utiliza la función `fetch` nativa de JavaScript junto con `async
 
 ## Instrucciones de Instalación y Ejecución
 1. Clonar el repositorio:
-   `git clone <url-de-tu-repositorio>`
+   `git clone https://github.com/KevinFelix1563/DAW_Meta2.2_FelixKevin`
 2. Navegar al directorio del proyecto:
    `cd proyecto-vue-vuetify`
 3. Instalar las dependencias:
